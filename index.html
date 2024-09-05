@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <title>Basic Palindrome Checker</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, scale=initial-scale ">
+  <link rel="stylesheet" href="styles.css">
+  
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1 id="title">is it a Palindrome?</h1>
+    <div class="column"><div id="user-input-area">
+        <input  id="text-input" type="text" placeholder="Please enter your text here">
+        <button id="check-btn" type="submit">CHECK</button>
+    </div>
+    <div id="result"></div>
+    </div>
+    <div class="Palindrome-explination">
+       <h3><img src="https://www.svgrepo.com/show/288754/mirror.svg" alt="mirror-icon" width="25px"/> What is a Palindrome?</h3>
+      <p>A Palindrome is a sequence of characters, a phrase, or even a block of text that reads the same backward and forward. It's like a linguistic mirror trick!</p><br>
+<label for="list">Funny Palindromes:</label>
+<ul id="list">
+  <li><strong><img src="https://www.svgrepo.com/show/489548/number-6-circle.svg" alt="number-6" width="20px"><img src="https://www.svgrepo.com/show/489555/number-9-circle.svg" alt="number-9" width="20px"><img src="https://www.svgrepo.com/show/489548/number-6-circle.svg" alt="number-6" width="20px"> "Never odd or even"</strong>: A statement that’s always true.</li>
+  <li><strong><img src="https://www.svgrepo.com/show/397648/olive.svg" alt="olive oil" width="20px"> "Evil olive"</strong>: Watch out for those malevolent fruits!</li>
+  <li><strong><img src="https://www.svgrepo.com/show/530359/banana.svg" alt="a banana" width="20px"> "Yo, Banana Boy!"</strong>: A friendly greeting to your favorite fruit-loving friend.</li>
+</ul>
+    </div>
+    <div id="code-summary"><label for="list_2"><img src="https://www.svgrepo.com/show/295398/code.svg" alt="a pc icon" width="20px"><strong> Code Summary:</label></strong><br><div class="img_container"><img src="https://scaler.com/topics/images/check-whether-the-entered-string-is-palindrome.webp" width="250px" ></div>
+  <ol id="list_2">
+    <li><strong>Start and End Pointers</strong>: We use two pointers to check characters from the start and end of the string.</li>
+    <li><strong>Skip Non-Alphanumeric Characters</strong>: We skip over any characters that aren't letters or numbers.</li>
+    <li><strong>Compare Characters</strong>: We compare characters from both ends, moving inward. If any characters don't match, it's not a palindrome.</li>
+  </ol>
+    <p> - This process continues until all characters are checked. If all matched, the string is a palindrome; otherwise, it's not.</p>
+    </div>
+
+</body>
+</html>

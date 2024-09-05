@@ -1,0 +1,131 @@
+body {
+    background-color: black; /*#1A1A1A;*/
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', serif;
+    gap:20px;
+  }
+  
+  #title {
+    text-align: center;
+    color: white;
+     text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7);
+    font-family: 'Roboto', serif;
+  }
+  
+  #user-input-area {
+    display: flex;
+  }
+  
+  #text-input {
+    border: none; 
+    border-bottom: 2px solid green; 
+    outline: none;
+  }
+  .column{
+  display:flex;
+  gap:20px;
+  border-radius: 5px;
+  flex-direction:column;
+  background-color: white;
+  padding: 30px;
+  margin: auto;
+  box-shadow: 0px 5px 1px rgba(0, 255, 100, 0.6);
+  }
+  #check-btn {
+    margin-left: 5px;
+    padding: 0.40vw 15px;
+    color: white;
+    background-color: #28a745; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  #check-btn:hover {
+    background-color: #218838; 
+  }
+  
+  #result {
+    text-align: center; 
+    font-size:1.5rem;
+  }
+  
+  .Palindrome-explination{
+    margin : auto;
+    max-width:550px;
+    padding:10px;
+    background-color: white; 
+    border: solid 5px #218838;
+    border-radius: 5px;
+  }
+  
+  #code-summary{
+    margin : auto;
+    max-width:550px;
+    padding:10px;
+    background-color: white; 
+    border: solid 5px #218838;
+    border-radius: 5px;
+  }
+  .img_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (max-width: 400px) {
+    #user-input-area {
+      width:50vw;
+      padding:0px;
+      margin:0px;
+      flex-direction: column;
+      gap:30px;
+      justify-content: center;
+    }
+    
+    
+  #text-input {
+    box-sizing: border-box; 
+  }
+    
+    #check-btn {
+      width: auto;
+      padding: 0.5em 1em;
+    }
+    .Palindrome-explination h3,.Palindrome-explination p{
+      text-align:center;
+    }
+    .column{
+      align-items:center;
+    }
+    .column ,#code-summary , .Palindrome-explination {
+      font-size:0.89rem;
+      
+      padding:10px;
+    }
+    #code-summary{
+    width:auto;
+    margin:0px;
+    height: auto;
+    overflow: hidden; 
+    }
+    body {
+    margin: 10px;
+    padding: 10px;
+     overflow-x: hidden; 
+    }
+    
+   body::-webkit-scrollbar {
+    width: 0px;  
+    }
+  
+   
+    
+  }
+  
+  @media (min-width: 768px) {
+    #user-input-area {
+      gap: 20px;
+    }
+}
